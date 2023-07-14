@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_demo_1689320622935-pr-trigger-input-set
+  identifier: Build_demo_1689320622935prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: cbw
+  pipeline:
+    identifier: Build_demo_1689320622935
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
